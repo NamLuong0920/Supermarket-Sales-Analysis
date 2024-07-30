@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34301.259
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "DB_Mining(DESKTOP-5B2KLU2)", "<Server=DESKTOP-5B2KLU2;Database=DB_Mining;>", "{E26A37E9-DB91-4334-BF6C-A377DDCC81E0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E26A37E9-DB91-4334-BF6C-A377DDCC81E0}.Development|Default.ActiveCfg = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F5C16EED-DA19-4A4E-96F1-98E76F448ECC}
+	EndGlobalSection
+EndGlobal

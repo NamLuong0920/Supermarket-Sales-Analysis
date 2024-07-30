@@ -1,0 +1,198 @@
+﻿<MiningStructure xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="6272ea35-4280-4d9f-b4c0-d8328ba9b32d" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>DB Import</ID>
+  <Name>DB Import</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CaseTableName</Name>
+      <Value>dbo_DBImport</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="dc22e728-27f5-4250-86fc-03e99de7ac19">
+    <DataSourceViewID>DDS DA</DataSourceViewID>
+  </Source>
+  <Columns>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="6bfaddf2-2de2-41a2-8885-271e33455215">
+      <ID>City</ID>
+      <Name>City</Name>
+      <Type>Text</Type>
+      <Content>Discrete</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="dc7246c5-93fb-4de6-8263-36eec800b362">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e4808796-0315-4fe2-96f7-42afac1426ff">
+            <TableID>dbo_DBImport</TableID>
+            <ColumnID>City</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="2ff90b85-b443-4682-80a0-5991cdf365f1">
+      <ID>Gender</ID>
+      <Name>Gender</Name>
+      <Type>Text</Type>
+      <Content>Discrete</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="28a80c11-00de-4c00-9fa0-aaf428cf46a8">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d98b9b55-c98e-4b78-92c9-b7276b66194c">
+            <TableID>dbo_DBImport</TableID>
+            <ColumnID>Gender</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="b23ace2b-f8cf-424f-a997-c49d1286efc0">
+      <ID>Invoice Id</ID>
+      <Name>Invoice Id</Name>
+      <IsKey>true</IsKey>
+      <Type>Text</Type>
+      <Content>Key</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="438e7a90-71cd-417b-bbcb-ca6e5e3767b3">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="54b44b57-7251-4f71-86a3-ff10d89807d8">
+            <TableID>dbo_DBImport</TableID>
+            <ColumnID>Invoice_id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="e4b42c8c-6ca9-4bc4-a5cc-116924fe6a6e">
+      <ID>Product Line</ID>
+      <Name>Product Line</Name>
+      <Type>Text</Type>
+      <Content>Discrete</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3fd13b84-6a7b-40c1-862b-31ffdf05c5ac">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b70b3ec4-1b53-4f47-9196-048d317b00b2">
+            <TableID>dbo_DBImport</TableID>
+            <ColumnID>ProductLine</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="92b627a1-a67a-4924-8e1d-63cfb9332203">
+      <ID>Quantity</ID>
+      <Name>Quantity</Name>
+      <Type>Text</Type>
+      <Content>Discrete</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3cf5748f-8eb1-42f1-a6dd-019ab97e3985">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="efbd0f06-ded5-4e2b-a526-9547993f6466">
+            <TableID>dbo_DBImport</TableID>
+            <ColumnID>Quantity</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="e18ee36c-b090-4235-97df-4f6ef5f96975">
+      <ID>Total</ID>
+      <Name>Total</Name>
+      <Type>Text</Type>
+      <Content>Discrete</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="7bef4ae7-ce75-44c0-a743-579d945a283c">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="18e6dec3-22bf-4055-95cb-b7b5acd80370">
+            <TableID>dbo_DBImport</TableID>
+            <ColumnID>Total</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+  </Columns>
+  <MiningModels>
+    <MiningModel dwd:design-time-name="9903d59c-5124-4a0a-8fb7-6a0104055438">
+      <ID>DB Import</ID>
+      <Name>DB Import</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Algorithm>Microsoft_Decision_Trees</Algorithm>
+      <Columns>
+        <Column dwd:design-time-name="d1e993ec-d334-4180-b0d9-5ef415123b10">
+          <ID>City</ID>
+          <Name>City</Name>
+          <SourceColumnID>City</SourceColumnID>
+        </Column>
+        <Column dwd:design-time-name="10589b70-61c2-4fe3-9cb2-21eaa34a068e">
+          <ID>Gender</ID>
+          <Name>Gender</Name>
+          <SourceColumnID>Gender</SourceColumnID>
+        </Column>
+        <Column dwd:design-time-name="63b4b1b1-7270-4c51-b83c-5c7ca1ddac20">
+          <ID>Invoice Id</ID>
+          <Name>Invoice Id</Name>
+          <SourceColumnID>Invoice Id</SourceColumnID>
+          <Usage>Key</Usage>
+        </Column>
+        <Column dwd:design-time-name="8c47d4e6-980a-4e59-9a0e-fdd104e50552">
+          <ID>Product Line</ID>
+          <Name>Product Line</Name>
+          <SourceColumnID>Product Line</SourceColumnID>
+        </Column>
+        <Column dwd:design-time-name="eac8ec29-1b5d-4385-960c-5ec130fc5e0b">
+          <ID>Quantity</ID>
+          <Name>Quantity</Name>
+          <SourceColumnID>Quantity</SourceColumnID>
+          <Usage>PredictOnly</Usage>
+        </Column>
+        <Column dwd:design-time-name="546892e3-f4fd-459e-9858-be6be5ed9784">
+          <ID>Total</ID>
+          <Name>Total</Name>
+          <SourceColumnID>Total</SourceColumnID>
+          <Usage>PredictOnly</Usage>
+        </Column>
+      </Columns>
+    </MiningModel>
+  </MiningModels>
+  <ddl100_100:HoldoutMaxPercent>30</ddl100_100:HoldoutMaxPercent>
+</MiningStructure>

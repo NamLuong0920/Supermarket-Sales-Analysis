@@ -1,0 +1,121 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="83ab05d8-25f0-4066-ba06-bda14f7807a5" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>dataMining</ID>
+  <Name>dataMining</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>dataMining</DataSourceID>
+  <Schema>
+    <xs:schema id="dataMining" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="dataMining" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="37cf8f33-b6c4-4846-adb8-8127d04cda33">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_DataMining" msprop:design-time-name="0f318cd3-5ec2-40f5-bb51-193308c91264" msprop:DbTableName="DataMining" msprop:FriendlyName="DataMining" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Invoice_id" msprop:design-time-name="8c347aaf-afa1-4f03-84a3-d64c2bd89af6" msprop:DbColumnName="Invoice_id" msprop:FriendlyName="Invoice_id">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Cogs" msprop:design-time-name="64b9cdb8-ec4b-4a89-b88b-28cea8133327" msprop:DbColumnName="Cogs" msprop:FriendlyName="Cogs" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="Gross_income" msprop:design-time-name="e7ca91ec-1744-4da2-8f40-0d8ff7ae6f21" msprop:DbColumnName="Gross_income" msprop:FriendlyName="Gross_income" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="Gross_margin_percentage" msprop:design-time-name="a52369e0-60b0-45ca-8977-aed490837e23" msprop:DbColumnName="Gross_margin_percentage" msprop:FriendlyName="Gross_margin_percentage" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="Quantity" msprop:design-time-name="23a775a6-5e51-4337-a6c0-198750cad992" msprop:DbColumnName="Quantity" msprop:FriendlyName="Quantity" type="xs:int" minOccurs="0" />
+                  <xs:element name="Rating" msprop:design-time-name="dda8e33c-c497-4fc9-b55d-c41898d8cc44" msprop:DbColumnName="Rating" msprop:FriendlyName="Rating" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="Tax_5" msprop:design-time-name="3f8482f8-3545-4def-9dba-597a6bcb4f01" msprop:DbColumnName="Tax_5" msprop:FriendlyName="Tax_5" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="Total" msprop:design-time-name="fb050e0e-8fbf-43dd-9273-309c47bd017b" msprop:DbColumnName="Total" msprop:FriendlyName="Total" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="Unit_price" msprop:design-time-name="7274ca51-c261-463d-8604-af695f7d817b" msprop:DbColumnName="Unit_price" msprop:FriendlyName="Unit_price" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="City" msprop:design-time-name="723fbbe6-97be-43df-ac85-cd49af7655d4" msprop:DbColumnName="City" msprop:FriendlyName="City" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Customer_type" msprop:design-time-name="81c9d296-66cf-48f5-9867-e879fb10b6a2" msprop:DbColumnName="Customer_type" msprop:FriendlyName="Customer_type" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Gender" msprop:design-time-name="d36a0b33-52bd-4713-9523-4001a7bf3462" msprop:DbColumnName="Gender" msprop:FriendlyName="Gender" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Payment" msprop:design-time-name="7e6664dc-cc9e-482b-bf74-cfbf47792e87" msprop:DbColumnName="Payment" msprop:FriendlyName="Payment" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Product_id" msprop:design-time-name="fa01ca2a-ea03-4656-b207-87c11324fd26" msprop:DbColumnName="Product_id" msprop:FriendlyName="Product_id" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ProductLine" msprop:design-time-name="4fcce341-3f16-4e22-9ee3-b2bb80efcc94" msprop:DbColumnName="ProductLine" msprop:FriendlyName="ProductLine" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_DataMining" />
+          <xs:field xpath="Invoice_id" />
+        </xs:unique>
+      </xs:element>
+    </xs:schema>
+    <dataMining xmlns="" />
+  </Schema>
+</DataSourceView>

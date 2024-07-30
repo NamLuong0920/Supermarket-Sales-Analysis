@@ -1,0 +1,692 @@
+﻿<Database xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>MultidimensionalProject4</ID>
+  <Name>MultidimensionalProject4</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <LastUpdate>0001-01-01T00:00:00Z</LastUpdate>
+  <DataSourceImpersonationInfo>
+    <ImpersonationMode>Default</ImpersonationMode>
+    <ImpersonationInfoSecurity>Unchanged</ImpersonationInfoSecurity>
+  </DataSourceImpersonationInfo>
+  <MiningStructures>
+    <MiningStructure>
+      <ID>DB Import</ID>
+      <Name>DB Import</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Annotations>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CaseTableName</Name>
+          <Value>dbo_DBImport</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+          <Value>true</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+          <Value>
+            <dds xmlns="">
+              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-6669" scrolltop="-3109" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="18034" y="11218" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                <font>
+                  <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+                </font>
+                <mouseicon>
+                  <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                </mouseicon>
+              </diagram>
+              <layoutmanager>
+                <ddsxmlobj />
+              </layoutmanager>
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DBImport" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4657" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobjectstreaminitwrapper binary="000e00003112000088130000" />
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="dbo_DBImport" vartype="8" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <shape groupshapeid="0" groupnode="0" />
+              </ddscontrol>
+            </dds>
+          </Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+          <Value>false</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+          <Value>true</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+          <Value>-6669</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+          <Value>-3109</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+          <Value>20</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+          <Value>0</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+          <Value>100</Value>
+        </Annotation>
+      </Annotations>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Source xsi:type="DataSourceViewBinding">
+        <DataSourceViewID>DDS DA</DataSourceViewID>
+      </Source>
+      <Columns>
+        <Column xsi:type="ScalarMiningStructureColumn">
+          <ID>City</ID>
+          <Name>City</Name>
+          <Type>Text</Type>
+          <Content>Discrete</Content>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>50</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_DBImport</TableID>
+                <ColumnID>City</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+        </Column>
+        <Column xsi:type="ScalarMiningStructureColumn">
+          <ID>Gender</ID>
+          <Name>Gender</Name>
+          <Type>Text</Type>
+          <Content>Discrete</Content>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>50</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_DBImport</TableID>
+                <ColumnID>Gender</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+        </Column>
+        <Column xsi:type="ScalarMiningStructureColumn">
+          <ID>Invoice Id</ID>
+          <Name>Invoice Id</Name>
+          <IsKey>true</IsKey>
+          <Type>Text</Type>
+          <Content>Key</Content>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>50</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_DBImport</TableID>
+                <ColumnID>Invoice_id</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+        </Column>
+        <Column xsi:type="ScalarMiningStructureColumn">
+          <ID>Product Line</ID>
+          <Name>Product Line</Name>
+          <Type>Text</Type>
+          <Content>Discrete</Content>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>50</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_DBImport</TableID>
+                <ColumnID>ProductLine</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+        </Column>
+        <Column xsi:type="ScalarMiningStructureColumn">
+          <ID>Quantity</ID>
+          <Name>Quantity</Name>
+          <Type>Text</Type>
+          <Content>Discrete</Content>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>50</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_DBImport</TableID>
+                <ColumnID>Quantity</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+        </Column>
+        <Column xsi:type="ScalarMiningStructureColumn">
+          <ID>Total</ID>
+          <Name>Total</Name>
+          <Type>Text</Type>
+          <Content>Discrete</Content>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>50</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_DBImport</TableID>
+                <ColumnID>Total</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+        </Column>
+      </Columns>
+      <MiningModels>
+        <MiningModel>
+          <ID>DB Import</ID>
+          <Name>DB Import</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Algorithm>Microsoft_Decision_Trees</Algorithm>
+          <Columns>
+            <Column>
+              <ID>City</ID>
+              <Name>City</Name>
+              <SourceColumnID>City</SourceColumnID>
+            </Column>
+            <Column>
+              <ID>Gender</ID>
+              <Name>Gender</Name>
+              <SourceColumnID>Gender</SourceColumnID>
+            </Column>
+            <Column>
+              <ID>Invoice Id</ID>
+              <Name>Invoice Id</Name>
+              <SourceColumnID>Invoice Id</SourceColumnID>
+              <Usage>Key</Usage>
+            </Column>
+            <Column>
+              <ID>Product Line</ID>
+              <Name>Product Line</Name>
+              <SourceColumnID>Product Line</SourceColumnID>
+            </Column>
+            <Column>
+              <ID>Quantity</ID>
+              <Name>Quantity</Name>
+              <SourceColumnID>Quantity</SourceColumnID>
+              <Usage>PredictOnly</Usage>
+            </Column>
+            <Column>
+              <ID>Total</ID>
+              <Name>Total</Name>
+              <SourceColumnID>Total</SourceColumnID>
+              <Usage>PredictOnly</Usage>
+            </Column>
+          </Columns>
+        </MiningModel>
+      </MiningModels>
+      <ddl100_100:HoldoutMaxPercent>30</ddl100_100:HoldoutMaxPercent>
+    </MiningStructure>
+    <MiningStructure>
+      <ID>DB Import 1</ID>
+      <Name>DB Import 1</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Annotations>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CaseTableName</Name>
+          <Value>dbo_DBImport</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+          <Value>true</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+          <Value>
+            <dds xmlns="">
+              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-6669" scrolltop="-3109" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="18034" y="11218" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                <font>
+                  <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+                </font>
+                <mouseicon>
+                  <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                </mouseicon>
+              </diagram>
+              <layoutmanager>
+                <ddsxmlobj />
+              </layoutmanager>
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DBImport" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4657" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobjectstreaminitwrapper binary="000e00003112000088130000" />
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="dbo_DBImport" vartype="8" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <shape groupshapeid="0" groupnode="0" />
+              </ddscontrol>
+            </dds>
+          </Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+          <Value>false</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+          <Value>true</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+          <Value>-6669</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+          <Value>-3109</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+          <Value>20</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+          <Value>0</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+          <Value>100</Value>
+        </Annotation>
+      </Annotations>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Source xsi:type="DataSourceViewBinding">
+        <DataSourceViewID>DDS DA</DataSourceViewID>
+      </Source>
+      <Columns>
+        <Column xsi:type="ScalarMiningStructureColumn">
+          <ID>City</ID>
+          <Name>City</Name>
+          <Type>Text</Type>
+          <Content>Continuous</Content>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>50</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_DBImport</TableID>
+                <ColumnID>City</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+        </Column>
+        <Column xsi:type="ScalarMiningStructureColumn">
+          <ID>Gender</ID>
+          <Name>Gender</Name>
+          <Type>Text</Type>
+          <Content>Continuous</Content>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>50</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_DBImport</TableID>
+                <ColumnID>Gender</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+        </Column>
+        <Column xsi:type="ScalarMiningStructureColumn">
+          <ID>Invoice Id</ID>
+          <Name>Invoice Id</Name>
+          <IsKey>true</IsKey>
+          <Type>Text</Type>
+          <Content>Key</Content>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>50</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_DBImport</TableID>
+                <ColumnID>Invoice_id</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+        </Column>
+        <Column xsi:type="ScalarMiningStructureColumn">
+          <ID>Product Line</ID>
+          <Name>Product Line</Name>
+          <Type>Text</Type>
+          <Content>Continuous</Content>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>50</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_DBImport</TableID>
+                <ColumnID>ProductLine</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+        </Column>
+        <Column xsi:type="ScalarMiningStructureColumn">
+          <ID>Quantity</ID>
+          <Name>Quantity</Name>
+          <Type>Text</Type>
+          <Content>Continuous</Content>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>50</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_DBImport</TableID>
+                <ColumnID>Quantity</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+        </Column>
+      </Columns>
+      <MiningModels>
+        <MiningModel>
+          <ID>DB Import 1</ID>
+          <Name>DB Import 1</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Algorithm>Microsoft_Linear_Regression</Algorithm>
+          <Columns>
+            <Column>
+              <ID>City</ID>
+              <Name>City</Name>
+              <SourceColumnID>City</SourceColumnID>
+              <ModelingFlags>
+                <ModelingFlag>REGRESSOR</ModelingFlag>
+              </ModelingFlags>
+            </Column>
+            <Column>
+              <ID>Gender</ID>
+              <Name>Gender</Name>
+              <SourceColumnID>Gender</SourceColumnID>
+              <ModelingFlags>
+                <ModelingFlag>REGRESSOR</ModelingFlag>
+              </ModelingFlags>
+            </Column>
+            <Column>
+              <ID>Invoice Id</ID>
+              <Name>Invoice Id</Name>
+              <SourceColumnID>Invoice Id</SourceColumnID>
+              <Usage>Key</Usage>
+            </Column>
+            <Column>
+              <ID>Product Line</ID>
+              <Name>Product Line</Name>
+              <SourceColumnID>Product Line</SourceColumnID>
+              <ModelingFlags>
+                <ModelingFlag>REGRESSOR</ModelingFlag>
+              </ModelingFlags>
+            </Column>
+            <Column>
+              <ID>Quantity</ID>
+              <Name>Quantity</Name>
+              <SourceColumnID>Quantity</SourceColumnID>
+              <Usage>PredictOnly</Usage>
+              <ModelingFlags>
+                <ModelingFlag>REGRESSOR</ModelingFlag>
+              </ModelingFlags>
+            </Column>
+          </Columns>
+        </MiningModel>
+      </MiningModels>
+      <ddl100_100:HoldoutMaxPercent>30</ddl100_100:HoldoutMaxPercent>
+    </MiningStructure>
+  </MiningStructures>
+  <DataSources>
+    <DataSource xsi:type="RelationalDataSource">
+      <ID>DDS DA</ID>
+      <Name>DDS DA</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <ConnectionString>Provider=SQLNCLI11.1;Data Source=DESKTOP-5B2KLU2\SQLEXPRESS;Integrated Security=SSPI;Initial Catalog=DDS_DA</ConnectionString>
+      <ConnectionStringSecurity>Unchanged</ConnectionStringSecurity>
+      <ImpersonationInfo>
+        <ImpersonationMode>ImpersonateAccount</ImpersonationMode>
+        <Account>caoch</Account>
+        <ImpersonationInfoSecurity>PasswordRemoved</ImpersonationInfoSecurity>
+      </ImpersonationInfo>
+      <Timeout>PT0S</Timeout>
+    </DataSource>
+  </DataSources>
+  <DataSourceViews>
+    <DataSourceView>
+      <ID>DDS DA</ID>
+      <Name>DDS DA</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Annotations>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+          <Value>true</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+          <Value>_ALL_TABLES_</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+          <Value></Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+          <Value>true</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+          <Value>
+            <Layouts xmlns="">
+              <Diagram>
+                <Name>_ALL_TABLES_</Name>
+                <DiagramLayout />
+                <ShowRelationshipNames>False</ShowRelationshipNames>
+                <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+                <DiagramViewPortLeft>0</DiagramViewPortLeft>
+                <DiagramViewPortTop>0</DiagramViewPortTop>
+                <DiagramBoundingLeft>0</DiagramBoundingLeft>
+                <DiagramBoundingTop>0</DiagramBoundingTop>
+                <DiagramZoom>100</DiagramZoom>
+              </Diagram>
+            </Layouts>
+          </Value>
+        </Annotation>
+      </Annotations>
+      <DataSourceID>DDS DA</DataSourceID>
+      <Schema>
+        <xs:schema id="DDS_x0020_DA" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+          <xs:element name="DDS_x0020_DA" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="3adc47a9-e492-406f-8adb-e179806adeee">
+            <xs:complexType>
+              <xs:choice minOccurs="0" maxOccurs="unbounded">
+                <xs:element name="dbo_DBImport" msprop:design-time-name="b0c96399-1352-49c4-971a-c9bb1558c545" msprop:FriendlyName="DBImport" msprop:DbSchemaName="dbo" msprop:DbTableName="DBImport" msprop:TableType="Table">
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element name="City_id" msprop:design-time-name="2bb989bb-bd14-4f70-a91d-df30d15a89ee" msprop:DbColumnName="City_id" msprop:FriendlyName="City_id" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="50" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="Product_id" msprop:design-time-name="b197a6dd-def0-483d-be54-9521a8fb98f5" msprop:DbColumnName="Product_id" msprop:FriendlyName="Product_id" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="50" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="Customer_Group_id" msprop:design-time-name="07929d8a-93f0-4738-9fce-610b0d94cdc9" msprop:DbColumnName="Customer_Group_id" msprop:FriendlyName="Customer_Group_id" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="50" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="Gender_id" msprop:design-time-name="760c2acc-22c9-4b0a-b02a-c30b1c6a31b3" msprop:DbColumnName="Gender_id" msprop:FriendlyName="Gender_id" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="50" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="Date_id" msprop:design-time-name="eb64cfdf-0967-4327-a158-7e3d5ddb0abd" msprop:DbColumnName="Date_id" msprop:FriendlyName="Date_id" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="50" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="Invoice_id" msprop:design-time-name="18cecd2f-c4b2-468e-89c6-f1ee3d3d3e42" msprop:DbColumnName="Invoice_id" msprop:FriendlyName="Invoice_id" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="50" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="Payment_id" msprop:design-time-name="a106e629-98c2-4a3c-8397-4e06f37041a8" msprop:DbColumnName="Payment_id" msprop:FriendlyName="Payment_id" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="50" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="Quantity" msprop:design-time-name="322a7daa-fcc8-4e41-bf5f-8474f62dd58b" msprop:DbColumnName="Quantity" msprop:FriendlyName="Quantity" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="50" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="Unit_price" msprop:design-time-name="278ff9cc-e13c-4364-a935-d60593ba8ae0" msprop:DbColumnName="Unit_price" msprop:FriendlyName="Unit_price" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="50" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="Tax_5" msprop:design-time-name="17ee313a-363a-4e67-9056-5b1cd5d739a9" msprop:DbColumnName="Tax_5" msprop:FriendlyName="Tax_5" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="50" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="Cogs" msprop:design-time-name="3c20ea04-8df6-4562-a644-3d72e906665c" msprop:DbColumnName="Cogs" msprop:FriendlyName="Cogs" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="50" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="Gross_margin_percentage" msprop:design-time-name="6872090b-5608-48ff-bee9-101e4c06e5c6" msprop:DbColumnName="Gross_margin_percentage" msprop:FriendlyName="Gross_margin_percentage" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="50" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="Gross_income" msprop:design-time-name="b9463059-f75e-46ad-8710-2010c179ae49" msprop:DbColumnName="Gross_income" msprop:FriendlyName="Gross_income" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="50" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="Rating" msprop:design-time-name="48420083-a05f-4905-9450-ec04b7e4bd07" msprop:DbColumnName="Rating" msprop:FriendlyName="Rating" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="50" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="Total" msprop:design-time-name="301ced2e-8e9b-44d8-8432-6da9ce1d7ac5" msprop:DbColumnName="Total" msprop:FriendlyName="Total" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="50" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="Branch" msprop:design-time-name="0d1c9382-e39e-46c6-9d4e-1c8a9bc1c24a" msprop:DbColumnName="Branch" msprop:FriendlyName="Branch" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="50" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="City" msprop:design-time-name="b536f85e-6ddd-4cfa-821c-bda253277b46" msprop:DbColumnName="City" msprop:FriendlyName="City" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="50" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="Customer_type" msprop:design-time-name="6dac1314-6f86-42ad-afae-48d0d1c9d3bd" msprop:DbColumnName="Customer_type" msprop:FriendlyName="Customer_type" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="50" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="Gender" msprop:design-time-name="7e278236-fc73-4972-a634-d6fabc178380" msprop:DbColumnName="Gender" msprop:FriendlyName="Gender" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="50" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="Payment" msprop:design-time-name="64ff15f1-7043-4072-9318-4996173d26e9" msprop:DbColumnName="Payment" msprop:FriendlyName="Payment" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="50" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="Product_id_nk" msprop:design-time-name="e1dfbe20-e7f9-41ad-af00-222bfc53d4d5" msprop:DbColumnName="Product_id_nk" msprop:FriendlyName="Product_id_nk" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="50" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="ProductLine_id_nk" msprop:design-time-name="37ea3533-8f00-4735-97cd-347c235cb57f" msprop:DbColumnName="ProductLine_id_nk" msprop:FriendlyName="ProductLine_id_nk" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="50" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="ProductLine" msprop:design-time-name="6f8c5c69-7075-44da-a34b-81ed2d5f28f8" msprop:DbColumnName="ProductLine" msprop:FriendlyName="ProductLine" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="50" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                    </xs:sequence>
+                  </xs:complexType>
+                </xs:element>
+              </xs:choice>
+            </xs:complexType>
+          </xs:element>
+        </xs:schema>
+        <DDS_x0020_DA xmlns="" />
+      </Schema>
+    </DataSourceView>
+  </DataSourceViews>
+</Database>

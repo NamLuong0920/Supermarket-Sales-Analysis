@@ -1,0 +1,46 @@
+﻿
+-- Tình hình mua hàng của khách hàng theo từng chi nhánh
+SELECT NON EMPTY [Measures].[Total] ON COLUMNS,
+	   NON EMPTY [Dim Customer Group].[Customer Type].[Customer Type]
+				  * [Dim City].[Branch].MEMBERS ON ROWS
+FROM [BI_9];
+
+-- Tình hình mua hàng của khách hàng theo từng loại sản phẩm
+SELECT NON EMPTY [Measures].[Total] ON COLUMNS,
+	   NON EMPTY [Dim Customer Group].[Customer Type].[Customer Type]
+				  * [Dim Product].[Product Line].MEMBERS ON ROWS
+FROM [BI_9];
+
+-- Tình hình mua hàng của khách hàng theo thời gian
+SELECT NON EMPTY [Measures].[Total] ON COLUMNS,
+	   NON EMPTY [Dim Customer Group].[Customer Type].[Customer Type]
+				  * [Dim Date].[DateTimeHierarchy].MEMBERS ON ROWS
+FROM [BI_9];
+
+SELECT NON EMPTY [Measures].[Total] ON COLUMNS,
+	   NON EMPTY [Dim Customer Group].[Customer Type].[Customer Type]
+				  * [Dim Date].[DateTimeHierarchy].[Year] ON ROWS
+FROM [BI_9];
+
+SELECT NON EMPTY [Measures].[Total] ON COLUMNS,
+	   NON EMPTY [Dim Customer Group].[Customer Type].[Customer Type]
+				  * [Dim Date].[DateTimeHierarchy].[Month] ON ROWS
+FROM [BI_9];
+
+SELECT NON EMPTY [Measures].[Total] ON COLUMNS,
+	   NON EMPTY [Dim Customer Group].[Customer Type].[Customer Type]
+				  * [Dim Date].[DateTimeHierarchy].[Day] ON ROWS
+FROM [BI_9];
+
+SELECT NON EMPTY [Measures].[Total] ON COLUMNS,
+	   NON EMPTY [Dim Customer Group].[Customer Type].[Customer Type]
+				  * [Dim Date].[DateTimeHierarchy].[Time] ON ROWS
+FROM [BI_9];
+
+-- Tình hình mua hàng của khách hàng theo hình thức thanh toán
+SELECT
+  NON EMPTY [Measures].[Total] ON COLUMNS,
+  NON EMPTY [Dim Customer Group].[Customer Type].[Customer Type] 
+             * [Dim Payment].[Payment].[Payment] ON ROWS
+FROM [BI_9];
+

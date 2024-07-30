@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<BuildLog xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ProjectInfo>
+    <Name>DATH</Name>
+    <LastWriteTime>2023-12-29T05:46:32.6651695Z</LastWriteTime>
+    <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+  </ProjectInfo>
+  <LastBuildInfos>
+    <ProjectBuildItemInfo>
+      <Name>Package.dtsx</Name>
+      <LastWriteTime>2023-12-28T14:51:40.0728968Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>Package2.dtsx</Name>
+      <LastWriteTime>2023-12-25T05:44:19.3635863Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>Package3.dtsx</Name>
+      <LastWriteTime>2024-01-06T13:44:34.7561979Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>Package4.dtsx</Name>
+      <LastWriteTime>2023-12-25T05:21:52.0764888Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    </ProjectBuildItemInfo>
+  </LastBuildInfos>
+</BuildLog>
